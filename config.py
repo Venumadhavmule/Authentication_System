@@ -15,6 +15,6 @@ class Config:
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     # Flask-Session config
-    SESSION_TYPE = 'sqlalchemy'               # store sessions in DB
-    SESSION_SQLALCHEMY_TABLE = 'sessions'     # table name for sessions
-    PERMANENT_SESSION_LIFETIME = 60 * 60 * 24 * 7  # 7 days
+    SESSION_TYPE = 'sqlalchemy'                     # store sessions in DB
+    SESSION_SQLALCHEMY_TABLE = 'sessions'           # table name for sessions
+    PERMANENT_SESSION_LIFETIME = 60 * 60 * 24 * 7   # 7 days
