@@ -35,3 +35,6 @@ coverage.xml
 # OS files
 .DS_Store
 Thumbs.db
+
+# add config.py to the .gitignore file to prevent sensitive information from being committed to version control.
+config.py
