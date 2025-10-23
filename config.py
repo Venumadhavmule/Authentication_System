@@ -10,7 +10,7 @@ class Config:
     # MySQL database URI
     SQLALCHEMY_DATABASE_URI = os.environ.get(
         'DATABASE_URI',
-        'mysql+pymysql://root:root123@127.0.0.1/flask_auth_db'
+        'postgresql+psycopg2://postgres:postgres@127.0.0.1/flask_auth_db'
     )
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
